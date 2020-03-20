@@ -4,6 +4,8 @@ let accion = process.argv[2];
 
 let tareas = [];
 
+// Este switch a continuación sirve para listar las acciones de la APP.
+
 switch (accion) {
   case 'listar':
     console.log();    
