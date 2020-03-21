@@ -22,6 +22,7 @@ switch (accion) {
     break;
 
   case 'filtrar':
+    /*
     console.log('Listado de tareas pendientes');
     console.log(process.argv[3])
     const estado = process.argv[3];
@@ -32,7 +33,7 @@ switch (accion) {
     });
 
     break;
-
+*/
   case 'crear':
     console.log('Nueva tarea creada');
 
