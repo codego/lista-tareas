@@ -3,13 +3,15 @@ let archivoTareas = require('./tareas');
 let accion = process.argv[2];
 
 let tareas = [];
-
+// hola soy 
 // Este switch a continuación sirve para listar las acciones de la APP.
-
+/*
+  holaa!!
+*/
 switch (accion) {
   case 'listar':
-    console.log();    
-    console.log('Listado de tareas');
+    console.log();
+    console.log('Listado de supertareas');
     console.log('----------------');
 
     tareas = archivoTareas.leerJSON();
